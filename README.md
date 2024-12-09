@@ -44,68 +44,61 @@ Ensure you have the following installed:
    cd Spam-Email-Classifier
 Install required libraries:
 
-bash
-Copy code
+bash:
 pip install -r requirements.txt
-Run the Flask web application:
 
-bash
-Copy code
-python app.py
-Open your browser and go to:
+# Project Structure
 
-arduino
-Copy code
-http://127.0.0.1:5000/
-Input an email message in the provided text box and click "Analyze" to classify it as spam or ham.
-
-Project Structure
-graphql
-Copy code
 Spam-Email-Classifier/
+
 │
+
 ├── app.py                   # Flask web application script
+
 ├── model.pkl                # Trained Logistic Regression model
+
 ├── vectorizer.pkl           # TF-IDF Vectorizer
+
 ├── dataset/
+
 │   └── mail_data.csv         # Kaggle dataset used for training
+
 ├── templates/
+
 │   └── index.html            # Web application frontend
+
 ├── static/
+
 │   └── style.css             # CSS for frontend design
+
 ├── requirements.txt          # List of dependencies
+
 ├── README.md                 # Project documentation
-Model Performance
+
+# Model Performance
 Training Accuracy: 96.59%
 Test Accuracy: 96.59%
 Precision and Recall: Balanced for both spam and ham classes.
-Future Work
+
+# Future Work
 Explore advanced machine learning models like Random Forest and SVM.
 Implement deep learning techniques such as RNNs or Transformers for better context understanding.
 Add multilingual support to handle emails in different languages.
 Deploy on cloud platforms for scalability and enterprise use.
-Contributions
+
+# Contributions
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
+# Fork the repository.
 Create a feature branch (git checkout -b feature-name).
 Commit your changes (git commit -m 'Add some feature').
 Push to the branch (git push origin feature-name).
 Open a Pull Request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+# Acknowledgments
 Dataset sourced from Kaggle.
 Special thanks to open-source libraries and tools used in this project.
 Feel free to replace placeholders (e.g., YourUsername) with the relevant details.
-
-vbnet
-Copy code
-
-This `README.md` file is detailed and formatted for clarity. If you need to adjust any section or add custom elements, let me know!
-
-
 
 
 
