@@ -76,14 +76,20 @@ Spam-Email-Classifier/
 ├── README.md                 # Project documentation
 
 # Model Performance
+
 Training Accuracy: 96.59%
+
 Test Accuracy: 96.59%
+
 Precision and Recall: Balanced for both spam and ham classes.
 
 # Future Work
 Explore advanced machine learning models like Random Forest and SVM.
+
 Implement deep learning techniques such as RNNs or Transformers for better context understanding.
+
 Add multilingual support to handle emails in different languages.
+
 Deploy on cloud platforms for scalability and enterprise use.
 
 # Contributions
@@ -91,13 +97,19 @@ Contributions are welcome! Please follow these steps:
 
 # Fork the repository.
 Create a feature branch (git checkout -b feature-name).
+
 Commit your changes (git commit -m 'Add some feature').
+
 Push to the branch (git push origin feature-name).
+
 Open a Pull Request.
 
 # Acknowledgments
+
 Dataset sourced from Kaggle.
+
 Special thanks to open-source libraries and tools used in this project.
+
 Feel free to replace placeholders (e.g., YourUsername) with the relevant details.
 
 
